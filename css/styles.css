@@ -781,3 +781,8 @@ a { color: inherit; }
   .footer-logo { width: 240px; }
   .site-footer { padding: 64px 0 40px; }
 }
+
+.form-status{margin:12px 0 0;font-size:.95rem}
+.form-status.is-success{color:#1a7f37}
+.form-status.is-error{color:#c62828}
+.btn-submit:disabled{opacity:.6;cursor:not-allowed}
